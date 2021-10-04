@@ -50,7 +50,7 @@ body{
 .wrapper__card{
   position: relative;
   max-width: 100%;
-  height: 13.75rem;
+  height: 15.625rem;
   padding: 1.875rem;
   background-color: #fff;
   border-top: 5px solid var(--primary-cyan);
@@ -78,6 +78,9 @@ body{
 }
 
 @media only screen and (min-width: 56.25rem ) {
+  body{
+    padding: 2.8125rem 1.625rem 0;
+  }
   .wrapper__header{
     margin: 4.6875rem auto;
     max-width: 31.25rem;
